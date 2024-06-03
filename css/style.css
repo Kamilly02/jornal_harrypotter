@@ -1,0 +1,97 @@
+@import url('https://fonts.cdnfonts.com/css/harry-potter');
+@import url('https://fonts.googleapis.com/css2?family=Modern+Antiqua&display=swap');
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+  
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #3f3f3f;
+    color: #fff;
+    padding: 20px;
+    align-items: center;
+}
+
+
+
+header i{  
+    cursor: pointer; 
+    box-shadow: rgb(0, 0, 0); 
+    transition: 1s;
+   position: absolute;
+   left: 20px;
+ }
+
+img{
+    width: 340px;
+    height: 500px;
+    object-fit: cover;
+}
+
+p{
+    font-family:'Times New Roman', Times, serif;
+}
+
+section {
+  margin: auto;
+  background: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Harry Potter', sans-serif;
+}
+
+h3 {
+    font-family: 'Harry Potter', sans-serif;
+    color: #3f3f3f;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Harry Potter', sans-serif;
+    color: #3f3f3f;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #3f3f3f;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
